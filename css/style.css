@@ -1,0 +1,25 @@
+a {
+    cursor: pointer;
+}
+
+.page-item.active .page-link {
+    color: var(--bs-white);
+    background-color: var(--bs-gray-900);
+}
+
+.link-dark {
+    transition: color .3s ease-in-out;
+}
+
+.link-dark:focus, .link-dark:hover {
+    color: var(--bs-gray-600);
+    transition: color .3s ease-in-out;
+}
+
+.title-1::before {
+    content: '/ ';
+}
+
+.title-2::before {
+    content: '// ';
+}

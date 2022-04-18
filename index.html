@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Блог - Список статей</title>
+
+		<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="font-monospace">
+		<header class="bg-dark p-2">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <a href="#" class="text-uppercase text-white fs-3 text-decoration-none">--blog--</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<main class="container text-dark">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<h1 class="mt-5 mb-2 mb-md-4 fs-1 title-1">Список статей</h1>
+					<ul id="postsList" class="list-group list-group-flush fs-3 mb-5 text-dark"></ul>
+					<nav id="pagination" class="d-flex justify-content-center justify-content-md-start" aria-label="Page navigation">
+						<ul class="pagination">
+							<li class="page-item">
+								<a class="arrow-prev page-link link-dark border-dark" href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li class="page-item" aria-current="page">
+								<a class="page-num page-link link-dark border-dark" href="#">1</a>
+							</li>
+							<li class="page-item">
+								<a class="page-num page-link link-dark border-dark" href="#">2</a>
+							</li>
+							<li class="page-item">
+								<a class="page-num page-link link-dark border-dark" href="#">3</a>
+							</li>
+							<li class="page-item">
+								<a class="arrow-next page-link link-dark border-dark" href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</main>
+		<script defer src="js/index.js"></script>
+	</body>
+</html>
